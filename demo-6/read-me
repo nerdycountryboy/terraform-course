@@ -1,0 +1,4 @@
+This demo will run in eu-west-1 for VPC, VPC Security Groups and EC2. 
+It will deploy a cluster from a pre-made template from git. 
+
+Make sure to destory as this is more than 1 instance and will incure cost.

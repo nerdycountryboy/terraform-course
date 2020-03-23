@@ -1,0 +1,29 @@
+Make Terraform Executable
+============================
+sudo mv terraform /usr/local/bin
+
+Make sure variable files are not in Github
+============================
+cat ../.gitignore
+
+Upload to GIT
+============================
+git init
+git add .
+git commit -m "Demo 8"
+
+Configure AWS CLID
+=============================
+Install from a download
+aws configure
+
+aws ec2 describe-instances
+
+aws ec2 describe-instances --query 'Reservations[*].Instances[*].[Placement.AvailabilityZone, State.Name, InstanceId]' --output table --region eu-west-1
+
+Notes:
+=============================
+terraform.tfstate is the active state on apply
+terraform.tfstate.backup is the backup of the previous state
+
+Use Git to keep version control
