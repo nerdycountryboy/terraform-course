@@ -10,7 +10,7 @@ Upload to GIT
 ============================
 git init
 git add .
-git commit -m "Demo 8"
+git commit -m "Done for Today"
 
 Configure AWS CLID
 =============================
@@ -20,6 +20,8 @@ aws configure
 aws ec2 describe-instances
 
 aws ec2 describe-instances --query 'Reservations[*].Instances[*].[Placement.AvailabilityZone, State.Name, InstanceId]' --output table --region eu-west-1
+aws ec2 describe-instances --query 'Reservations[*].Instances[*].[Placement.AvailabilityZone, State.Name, InstanceId]' --output table --region us-west-1
+aws ec2 describe-instances --query 'Reservations[*].Instances[*].[Placement.AvailabilityZone, State.Name, InstanceId]' --output table --region us-west-2
 
 Notes:
 =============================

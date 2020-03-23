@@ -17,5 +17,3 @@ variable "AMIS" {
   }
 }
 
-  
-  
