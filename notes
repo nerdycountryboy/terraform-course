@@ -1,8 +1,10 @@
 Make Terraform Executable
 ============================
+Download the ZIP and unzip
 sudo mv terraform /usr/local/bin
 
 Make sure variable files are not in Github
+
 ============================
 cat ../.gitignore
 
@@ -10,7 +12,7 @@ Upload to GIT
 ============================
 git init
 git add .
-git commit -m "Done for Today"
+git commit -m "Demo 13"
 
 Configure AWS CLID
 =============================
